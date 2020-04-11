@@ -1,0 +1,10 @@
+.my_link:nth-child(5) {
+	background-color: rgba(0, 0, 0, 0.05);
+	color: #00c924;
+	font-weight: bold;
+	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.list_img {
+	background-image: url("../images/1PImiYD8mRPr8edpL4SiIKCMs.png");
+}

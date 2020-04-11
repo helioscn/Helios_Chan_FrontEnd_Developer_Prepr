@@ -1,0 +1,238 @@
+a {
+	text-decoration: none;
+}
+
+a:active, a:focus {
+	outline: 0;
+	border: none;
+}
+
+header {
+	width: 100%;
+	height: 63px;
+	background-color: white;
+	box-shadow: 0 0 2px #888;
+	position: fixed;
+	z-index: 100;
+}
+
+#screen_pos_bar {
+	height: 3px;
+	width: 0;
+	background-color: #29cf55;
+	position: absolute;
+	bottom: 0;
+}
+
+#invisible_blocker_header {
+	height: 60px;
+	width: 100%;
+}
+
+.auto_96 {
+	width: 96%;
+	margin: auto;
+	height: 100%;
+}
+
+.flex_between {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex_left, .flex_right {
+	display: flex;
+	align-items: center;
+}
+
+#logo {
+	max-height: 35px;
+	margin-right: 30px;
+	margin-top: -7px;
+}
+
+#hamburger {
+	width: 16px;
+	height: 13.5px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+#hamburger:hover {
+	cursor: pointer;
+}
+
+.hamburger_bar {
+	width: 100%;
+	height: 3px;
+	background-color: #ccc;
+}
+
+#search_bar {
+	padding: 0px;
+	border: 1px solid rgba(0, 0, 0, 0);
+	border-radius: 4px;
+	transition: border 0.5s ease-in, padding 0.5s ease-in;
+}
+
+#search_icon {
+	font-size: 14px;
+	padding-right: 10px;
+	padding-left: 5px;
+	color: #ccc;
+}
+
+#search_icon:hover {
+	cursor: pointer;
+}
+
+#search_bar input {
+	width: 0;
+	border: none;
+	font-size: 14px;
+	line-height: 20px;
+	transition: width 0.5s ease-in;
+}
+
+#notifications_icon {
+	color: #ccc;
+	margin-left: 30px;
+	position: relative;
+}
+
+#notifications_icon:hover {
+	cursor: pointer;
+}
+
+#notifications_count {
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background-color: rgb(50, 200, 50);
+	position: absolute;
+	right: -10px;
+	top: -10px;
+	color: white;
+	text-align: center;
+	font-size: 10px;
+	line-height: 16px;
+}
+
+#user_icon {
+	max-width: 30px;
+	margin-left: 40px;
+}
+
+#sidebar {
+	height: calc(100vh - 63px);
+	width: 0;
+	position: fixed;
+	left: 0;
+	top: 63px;
+	background-color: white;
+	box-shadow: 0 0 3px #aaa;
+	box-sizing: border-box;
+	z-index: 100;
+	overflow: hidden;
+	transition: width 0.3s;
+}
+
+#sidebar_inner {
+	height: 100%;
+	overflow-y: scroll;
+	width: calc(200px + 17px);
+	padding-right: 17px;	
+	box-sizing: content-box;
+}
+
+#sidebar img {
+	display: block;
+	margin: auto;
+	width: 40%;
+	margin-top: 36px;
+}
+
+#sidebar h4 {
+	margin: 36px;
+	font-size: 14px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+#sidebar_grid {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.sidebar_item {
+	width: 50%;
+	padding-top: 50%;
+	position: relative;
+	display: block;
+}
+
+.si_overlay {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	flex-wrap: wrap;
+	transition: box-shadow 0.3s, color 0.3s;
+	box-shadow: 0 0 0 #aaa;
+	color: rgba(0, 0, 0, 0.5);
+	border-radius: 4px;
+}
+
+.si_overlay:hover {
+	cursor: pointer;
+	box-shadow: 0 0 9px #aaa;
+	color: rgba(0, 0, 0, 0.65);
+	z-index: 1;
+}
+
+.si_overlay i {
+	display: block;
+	width: 100%;
+	font-size: 20pt;
+	text-align: center;
+	transition: font-size 0.3s, text-shadow 0.3s;
+	text-shadow: 0 0 0px #ccc;
+}
+
+.si_overlay:hover i {
+	font-size: 30pt;
+	text-shadow: 0 0 3px #ccc;
+}
+
+.si_overlay span {
+	display: block;
+	margin-top: -24px;
+	width: 100%:;
+	font-size: 10pt;
+}
+
+#sidebar_scroll {
+	width: 3px;
+	border-radius: 2.5px;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+	position: absolute;
+	right: 0px;
+	top: 0;
+	opacity: 0;
+	transition: opacity 0.3s;
+	overflow: hidden;
+}
+
+#scroll_loc {
+	width: 100%;
+	position: absolute;
+	background-color: #29cf55;
+}

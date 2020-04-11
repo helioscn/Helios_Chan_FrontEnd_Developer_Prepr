@@ -1,0 +1,17 @@
+.my_link:nth-child(3) {
+	background-color: rgba(0, 0, 0, 0.05);
+	color: #00c924;
+	font-weight: bold;
+	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.list_img {
+	background-image: url("https://preprmedialive.s3.ca-central-1.amazonaws.com/uploads/challenge/SOj5KzEt9AdhCwltdRZMVxxKXwIkE98RxqKKFxQ4.jpeg");
+}
+
+.info_company {
+	font-size: 12pt;
+	color: rgba(0, 0, 0, 1);
+	display: block;
+	margin-top: 12px;
+}

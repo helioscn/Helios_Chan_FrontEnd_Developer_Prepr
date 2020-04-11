@@ -1,0 +1,20 @@
+footer {
+	height: 60px;
+	background-color: white;
+	box-shadow: 0 0 2px #888;
+}
+
+#footer_container {
+	margin: auto;
+	height: 60px;
+	width: 200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer_link {
+	font-size: 14px;
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.7);
+}
