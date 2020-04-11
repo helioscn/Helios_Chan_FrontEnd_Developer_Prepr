@@ -6,10 +6,10 @@
 * [Setup](#setup)
 * [Functionalities](#functionalities)
 * [Changes](#changes)
+* [Known Issues](#known-issues)
 * [Reflection](#reflection)
 ** [Points of Pride](#pop)
 ** [Points of Betterment](#pob)
-* [Known Issues](#known-issues)
 * [Conclusion](#conclusion)
 
 ## Overview
