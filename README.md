@@ -8,8 +8,6 @@
 * [Changes](#changes)
 * [Known Issues](#known-issues)
 * [Reflection](#reflection)
-** [Points of Pride](#pop)
-** [Points of Betterment](#pob)
 * [Conclusion](#conclusion)
 
 ## Overview
