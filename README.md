@@ -12,9 +12,11 @@
 ** [Points of Betterment](#pob)
 * [Conclusion](#conclusion)
 
+<a name="overview"/>
 ## Overview
 The purpose of this project is to showcase my front-end abilities in the application for Prepr's summer internship position.
 
+<a name="tech-stack"/>
 ## Tech Stack
 * HTML5
 * CSS3
@@ -22,6 +24,7 @@ The purpose of this project is to showcase my front-end abilities in the applica
 * jQuery
 * WampServer
 
+<a name="setup"/>
 ## Setup
 1. Install [WampServer](https://www.wampserver.com/)
 2. Locate **www** directory inside installation folder
@@ -31,6 +34,7 @@ The purpose of this project is to showcase my front-end abilities in the applica
 
 **Access details.php directly or by clicking on one of the challenges in challenges.php**
 
+<a name="functionalities"/>
 ## Functionalities
 
 ### Global
@@ -52,6 +56,7 @@ The purpose of this project is to showcase my front-end abilities in the applica
 * Like/dislike posts
 * Posts sorted by datetime
 
+<a name="changes"/>
 ## Changes
 
 ### Global
@@ -93,6 +98,7 @@ The purpose of this project is to showcase my front-end abilities in the applica
 * Revamped discussion area. Text field for adding comments now come first.
 * Improved discussion area spacing.
 
+<a name="known-issues"/>
 ## Known Isuses
 
 ### Design
@@ -112,11 +118,13 @@ The purpose of this project is to showcase my front-end abilities in the applica
 * Explore grid filter causes margin issues due to using CSS :nth-child selector. Fix would be to build grid dynamically, not using static HTML
 * Header scroll bar position indicator gets confused when document height changes due to filter changes (dynamic elements)
 
+<a name="reflection"/>
 ## Reflection
 I started off by looking through each of the five given pages to get a feel for the site's message and purpose. I didn't want to change the entire site--and felt like I didn't need to--since there are existing components that work well together. With that in mind, I sought only to rearrange certain components in a way that I think would improve the overall visual flow and user experience. The new aspects that I did introduce (i.e. navigation bar, header scroll bar, carousel, overview dropdowns, etc.) are to facilitate discussions on design possibilities--to test out new components that may (or may not) work well with the existing design.
 
 Technically, I know that I've sharpened my skill set by working on this project the past couple of days. The *challenge* was indeed a challenge for me, what with the functionality requirements and design aspects. But if it were not for these obstacles, I would not have asked as many questions as I did; and without these questions, I would not have found the solutions that I now have. This challenge pushed me to exceed my own self-expectations. Additionally, it also showed me where I went wrong and could therefore improve.
 
+<a name="pop"/>
 ### Points of Pride
 To start off, my being prideful of the following changes does not mean that other people won't find fault in them! Feedback is most welcome.
 * Sidebar grid and scroll
@@ -126,11 +134,13 @@ To start off, my being prideful of the following changes does not mean that othe
 * Host information carousel navigation
 * Discussion area with functional commenting and replying system
 
+<a name="pob"/>
 ### Points of Betterment
 * Code organization and naming convention
 * Redundant elements in code. Further cleanup is recommended. Deepen use of modular programming principles
 * Avoid diving straight into development without a clear vision
 * Be more daring when considering new designs. Try not to be limited by what's already there as per the challenge description
 
+<a name="conclusion"/>
 ## Conclusion
 Thank you, Prepr, for giving me this opportunity to showcase my abilities, and to unlock new ones. I have very much enjoyed working on this challenge during this time of global uncertainty.
